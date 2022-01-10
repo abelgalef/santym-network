@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package ChainModels;
+
+option go_package = "./";
+
+message Transaction {
+    double Amount = 1;
+    string Sender = 2;
+    string Recipient = 3;
+    int64 Timestamp = 4;
+    bytes Signature = 5;
+}
+
+message Block {
+    bytes Hash = 1;
+    uint64 Nonce = 2;
+    uint64 Timestamp = 3;
+    repeated Transaction Transactions = 4;
+    string Miner = 5;
+    bytes PrevHash = 6;
+}
