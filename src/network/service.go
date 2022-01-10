@@ -42,7 +42,7 @@ func (ns *NetworkService) Init() bool {
 	}
 
 	ns.host = host
-	log.Printf("Host ID: %s\nHost Addr:%s\n", host.ID(), host.Addrs())
+	log.Printf("Host ID: %s\nHost Addr: %s\n", host.ID(), host.Addrs())
 
 	ps, err := pubsub.NewGossipSub(ns.ctx, host)
 	if err != nil {

@@ -18,9 +18,11 @@ require (
 
 require (
 	github.com/libp2p/go-libp2p-core v0.13.0
+	github.com/libp2p/go-libp2p-discovery v0.6.0
 	github.com/libp2p/go-libp2p-kad-dht v0.15.0
 	github.com/libp2p/go-libp2p-pubsub v0.6.0
 	github.com/multiformats/go-multiaddr v0.5.0
+	google.golang.org/protobuf v1.27.1
 )
 
 require (
@@ -60,7 +62,6 @@ require (
 	github.com/libp2p/go-libp2p-asn-util v0.1.0 // indirect
 	github.com/libp2p/go-libp2p-autonat v0.7.0 // indirect
 	github.com/libp2p/go-libp2p-blankhost v0.3.0 // indirect
-	github.com/libp2p/go-libp2p-discovery v0.6.0 // indirect
 	github.com/libp2p/go-libp2p-kbucket v0.4.7 // indirect
 	github.com/libp2p/go-libp2p-mplex v0.4.1 // indirect
 	github.com/libp2p/go-libp2p-nat v0.1.0 // indirect
@@ -127,6 +128,5 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/tools v0.1.1 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 )
